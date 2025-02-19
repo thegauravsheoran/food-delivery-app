@@ -17,14 +17,7 @@ const StoreContextProvider = ({ children }) => {
     }
 
     const removeFromCart = (id) => {
-        // if (cartItems[id] === 1) {
-        //     const newCartItems = { ...cartItems }
-        //     delete newCartItems[id]
-        //     setCartItems(newCartItems)
-        // }
-        // else {
             setCartItems(prev => ({ ...prev, [id]: prev[id] - 1 }))
-        // }
     }
 
     const contextValue = {
