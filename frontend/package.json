@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://thegauravsheoran.github.io/food-delivery-app/",
+  "homepage": "https://thegauravsheoran.github.io/food-delivery-app/frontend",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
